@@ -11,7 +11,7 @@ const request = require('request');
 const moment = require('moment');
 const { io } = require('socket.io-client')
 let clientID;
-const socket = io("http://localhost:3030")
+const socket = io("http://139.162.47.179:3030")
 
 
 router.get('/', function(req, res, next){
